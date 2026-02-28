@@ -1,17 +1,10 @@
+# ========== 超大文件（必须排除）==========
 # Python环境
 qwen_env/
 **/venv/
 **/env/
 **/.conda/
-**/__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
 *.so
-*.egg-info/
-dist/
-build/
 
 # 模型权重和checkpoint
 *.pt
@@ -19,80 +12,47 @@ build/
 *.bin
 *.safetensors
 *.ckpt
-*.h5
-*.pkl
 **/checkpoints/
 **/outputs/*/model.safetensors
 **/outputs/*/pytorch_model.bin
 **/outputs/*/*.pt
 **/pretrained_models/
 
-# 缓存
+# HuggingFace缓存
 hf_cache/
-**/.cache/
-**/cache/
-**/__pycache__/
-*.pyc
 
 # 数据文件
 *.tfrecord
-*.h5
-*.hdf5
 **data/libero/**/*.tfrecord
 **/datasets/
 **/rollouts/
 
-# Git相关
-.git/
-**/.git/
-**/.git/objects/pack/*.pack
-
-# 大文件
+# 大型安装包
 *.whl
-*.tar.gz
-*.zip
-*.7z
+Miniforge3-Linux-x86_64.sh
 
-# 日志和临时文件
-*.log
-logs/
-**/logs/
-*.tmp
-.DS_Store
-.vscode/
-.vscode-server/
-.idea/
+# Git仓库
+**/.git/
 
-# 评估结果
-**/eval_logs/
-**/my_results/
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# 特定目录
-**/wandb/
-**/mlruns/
-
-# Shell和用户配置
-.bash_history
-.bash_profile
-.bash_logout
-.bashrc
-.profile
-.zshrc
-
-# Claude AI配置
-.claude/
-
-# 其他隐藏配置
-.libero/
+# ========== 敏感信息（必须排除）==========
 .ssh/
 .gnupg/
-.gitconfig
-.keras/
-.matplotlib/
-.jupyter/
-.local/
-.npm/
+**/*token*
+**/*secret*
+**/*password*
+**/*.pem
+**/*.key
+
+# ========== 临时文件 ==========
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+.DS_Store
+
+# ========== 日志和评估结果（可选保留部分）==========
+# 如果日志文件很大可以排除
+# *.log
+# logs/
+# **/logs/
