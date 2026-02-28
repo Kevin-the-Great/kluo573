@@ -1,0 +1,5 @@
+assets: /hpc2hdd/home/kluo573/VLAadapter/VLA-Adapter/LIBERO/libero/libero/./assets
+bddl_files: /hpc2hdd/home/kluo573/VLAadapter/VLA-Adapter/LIBERO/libero/libero/./bddl_files
+benchmark_root: /hpc2hdd/home/kluo573/VLAadapter/VLA-Adapter/LIBERO/libero/libero
+datasets: /hpc2hdd/home/kluo573/VLAadapter/VLA-Adapter/data/datasets
+init_states: /hpc2hdd/home/kluo573/VLAadapter/VLA-Adapter/LIBERO/libero/libero/./init_files
