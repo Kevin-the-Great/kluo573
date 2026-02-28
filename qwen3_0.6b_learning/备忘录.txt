@@ -1,0 +1,4 @@
+终端调用先要进入目录cd /hpc2hdd/home/kluo573/qwen3_0.6b_learning/
+因为不是安装在默认位置，激活的时候不能直接叫名字，而要指定路径：conda activate ./qwen_env
+暴露装有权重的地址，这样模型才知道去哪里找权重 export HF_HOME=/hpc2hdd/home/kluo573/qwen3_0.6b_learning/hf_cache
+

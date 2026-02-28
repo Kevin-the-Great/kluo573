@@ -1,0 +1,98 @@
+# Python环境
+qwen_env/
+**/venv/
+**/env/
+**/.conda/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+
+# 模型权重和checkpoint
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+**/checkpoints/
+**/outputs/*/model.safetensors
+**/outputs/*/pytorch_model.bin
+**/outputs/*/*.pt
+**/pretrained_models/
+
+# 缓存
+hf_cache/
+**/.cache/
+**/cache/
+**/__pycache__/
+*.pyc
+
+# 数据文件
+*.tfrecord
+*.h5
+*.hdf5
+**data/libero/**/*.tfrecord
+**/datasets/
+**/rollouts/
+
+# Git相关
+.git/
+**/.git/
+**/.git/objects/pack/*.pack
+
+# 大文件
+*.whl
+*.tar.gz
+*.zip
+*.7z
+
+# 日志和临时文件
+*.log
+logs/
+**/logs/
+*.tmp
+.DS_Store
+.vscode/
+.vscode-server/
+.idea/
+
+# 评估结果
+**/eval_logs/
+**/my_results/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 特定目录
+**/wandb/
+**/mlruns/
+
+# Shell和用户配置
+.bash_history
+.bash_profile
+.bash_logout
+.bashrc
+.profile
+.zshrc
+
+# Claude AI配置
+.claude/
+
+# 其他隐藏配置
+.libero/
+.ssh/
+.gnupg/
+.gitconfig
+.keras/
+.matplotlib/
+.jupyter/
+.local/
+.npm/
