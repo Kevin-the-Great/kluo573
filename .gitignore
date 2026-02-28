@@ -13,6 +13,8 @@
 **/*token*
 **/*secret*
 **/*password*
+**/*credential*
+**/.credentials.json
 **/*.pem
 **/*.key
 
@@ -21,48 +23,29 @@
 Miniforge3-Linux-x86_64.sh
 flash_attn*.whl
 
-# 大型缓存目录（通常包含>100MB文件）
+# 大型缓存目录
 hf_cache/
+.cache/
+.conda/
+.local/
 
 # 大型日志目录（644MB+）
 qwen3_0.6b_learning/logs/
 
-# ========== 开发环境和个人配置 ==========
-# Python虚拟环境
+# Python虚拟环境（通常很大）
 qwen_env/
 **/venv/
 **/env/
 
-# 个人开发工具配置
+# VSCode Server（通常很大）
 .vscode-server/
-.vscode/
-.conda/
-.cache/
-.config/
-.local/
+
+# 其他大型开发工具缓存
 .npm/
 .docker/
 .dotnet/
 .triton/
 .keras/
-.copilot/
-.codex/
-.claude/
-.claude.json
-
-# Shell个人配置
-.bash_history
-.bash_logout
-.bash_profile
-.bashrc
-.zshrc
-.wget-hsts
-
-# HPC专用文件
-.jhaidata
-.jhshares
-.jhjobs/
-.filedownload
 
 # ========== Git内部目录（已转换为常规文件） ==========
 .nested_git_backups/

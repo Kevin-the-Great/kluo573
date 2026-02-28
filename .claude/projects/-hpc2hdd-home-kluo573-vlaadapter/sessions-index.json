@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "f1b87a0b-fc65-41bf-9bb5-a43201435e6d",
+      "fullPath": "/hpc2hdd/home/kluo573/.claude/projects/-hpc2hdd-home-kluo573-vlaadapter/f1b87a0b-fc65-41bf-9bb5-a43201435e6d.jsonl",
+      "fileMtime": 1769676846972,
+      "firstPrompt": "<ide_opened_file>The user opened the file /hpc2hdd/home/kluo573/vlaadapter/VLA-Adapter/quantize_to_8bit.py in the IDE. This may or may not be related to the current task.</ide_opened_file>",
+      "messageCount": 5,
+      "created": "2026-01-29T08:53:03.853Z",
+      "modified": "2026-01-29T08:54:06.921Z",
+      "gitBranch": "",
+      "projectPath": "/hpc2hdd/home/kluo573/vlaadapter",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/hpc2hdd/home/kluo573/vlaadapter"
+}

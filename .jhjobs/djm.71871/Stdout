@@ -1,0 +1,112 @@
+71871[1] [33m[W 2026-01-19 14:48:44.276 ServerApp](B[m ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+71871[1] [32m[I 2026-01-19 14:48:44.339 ServerApp](B[m jupyter_lsp | extension was successfully linked.
+[32m[I 2026-01-19 14:48:44.339 ServerApp](B[m jupyter_server_proxy | extension was successfully linked.
+71871[1] [32m[I 2026-01-19 14:48:44.342 ServerApp](B[m jupyter_server_terminals | extension was successfully linked.
+71871[1] [33m[W 2026-01-19 14:48:44.343 LabApp](B[m 'base_url' has moved from LabApp to ServerApp. Be sure to update your config before our next release.
+71871[1] [32m[I 2026-01-19 14:48:44.345 ServerApp](B[m jupyterlab | extension was successfully linked.
+71871[1] [32m[I 2026-01-19 14:48:44.345 ServerApp](B[m jupyterlab_tensorboard_pro | extension was successfully linked.
+71871[1] [32m[I 2026-01-19 14:48:44.345 ServerApp](B[m Writing Jupyter server cookie secret to /etc/xdg/kluo573/jupyter/jupyter_cookie_secret
+71871[1] [32m[I 2026-01-19 14:48:44.502 ServerApp](B[m notebook_shim | extension was successfully linked.
+71871[1] [33m[W 2026-01-19 14:48:44.548 ServerApp](B[m WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[33m[W 2026-01-19 14:48:44.548 ServerApp](B[m WARNING: The Jupyter server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+71871[1] [32m[I 2026-01-19 14:48:44.548 ServerApp](B[m notebook_shim | extension was successfully loaded.
+71871[1] [32m[I 2026-01-19 14:48:44.550 ServerApp](B[m jupyter_lsp | extension was successfully loaded.
+71871[1] [32m[I 2026-01-19 14:48:44.558 ServerApp](B[m jupyter_server_proxy | extension was successfully loaded.
+71871[1] [32m[I 2026-01-19 14:48:44.559 ServerApp](B[m jupyter_server_terminals | extension was successfully loaded.
+71871[1] [32m[I 2026-01-19 14:48:44.560 LabApp](B[m JupyterLab extension loaded from /opt/miniconda3/lib/python3.10/site-packages/jupyterlab
+[32m[I 2026-01-19 14:48:44.560 LabApp](B[m JupyterLab application directory is /opt/miniconda3/share/jupyter/lab
+71871[1] [32m[I 2026-01-19 14:48:44.560 LabApp](B[m Extension Manager is 'pypi'.
+71871[1] [32m[I 2026-01-19 14:48:44.585 ServerApp](B[m jupyterlab | extension was successfully loaded.
+71871[1] [32m[I 2026-01-19 14:48:44.923 ServerApp](B[m jupyterlab_tensorboard_pro extension loaded.
+[32m[I 2026-01-19 14:48:44.923 ServerApp](B[m jupyterlab_tensorboard_pro | extension was successfully loaded.
+71871[1] [32m[I 2026-01-19 14:48:44.924 ServerApp](B[m Serving notebooks from local directory: /hpc2hdd/home/kluo573
+[32m[I 2026-01-19 14:48:44.924 ServerApp](B[m Jupyter Server 2.14.1 is running at:
+[32m[I 2026-01-19 14:48:44.924 ServerApp](B[m http://localhost:8888/dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/lab
+[32m[I 2026-01-19 14:48:44.924 ServerApp](B[m     http://127.0.0.1:8888/dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/lab
+[32m[I 2026-01-19 14:48:44.924 ServerApp](B[m Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+71871[1] [33m[W 2026-01-19 14:48:44.926 ServerApp](B[m No web browser found: Error('could not locate runnable browser').
+71871[1] [32m[I 2026-01-19 14:48:45.341 ServerApp](B[m Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+71871[1] [32m[I 2026-01-19 14:48:53.468 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.10ms
+71871[1] [32m[I 2026-01-19 14:49:03.590 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.97ms
+71871[1] [32m[I 2026-01-19 14:49:13.930 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.95ms
+71871[1] [32m[I 2026-01-19 14:49:24.252 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.96ms
+71871[1] [32m[I 2026-01-19 14:49:34.395 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.97ms
+71871[1] [32m[I 2026-01-19 14:49:36.620 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/?folder=/hpc2hdd/home/kluo573 (@10.120.18.242) 1.03ms
+71871[1] [32m[I 2026-01-19 14:49:36.750 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/lab?folder=/hpc2hdd/home/kluo573 (077fb0ffff834fdcbe916ef752292864@10.120.18.242) 2.40ms
+71871[1] [2026-01-19T06:49:37.536Z] info  code-server 4.6.0 6d3f9ca6a6df30a1bfad6f073f6fa33c0e63abdb
+71871[1] [2026-01-19T06:49:37.537Z] info  Using user-data-dir ~/.local/share/code-server
+71871[1] [2026-01-19T06:49:37.549Z] info  Using config file ~/.config/code-server/config.yaml
+71871[1] [2026-01-19T06:49:37.549Z] info  HTTP server listening on http://127.0.0.1:34961/ 
+[2026-01-19T06:49:37.549Z] info    - Authentication is disabled 
+[2026-01-19T06:49:37.549Z] info    - Not serving HTTPS 
+71871[1] [14:49:38] Extension host agent started.
+71871[1] [32m[I 2026-01-19 14:49:43.576 ServerApp](B[m Trying to establish websocket connection to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=Management&reconnectionToken=905e9609-89d9-4c78-bd2c-227ca73948be&reconnection=false&skipWebSocketFrames=false
+71871[1] [32m[I 2026-01-19 14:49:43.583 ServerApp](B[m Websocket connection established to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=Management&reconnectionToken=905e9609-89d9-4c78-bd2c-227ca73948be&reconnection=false&skipWebSocketFrames=false
+71871[1] [14:49:43] [127.0.0.1][905e9609][ManagementConnection] New connection established.
+71871[1] [32m[I 2026-01-19 14:49:44.323 ServerApp](B[m Trying to establish websocket connection to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=ExtensionHost&reconnectionToken=ca03137e-b5dd-403d-aae7-1e7c01b359ee&reconnection=false&skipWebSocketFrames=false
+71871[1] [32m[I 2026-01-19 14:49:44.329 ServerApp](B[m Websocket connection established to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=ExtensionHost&reconnectionToken=ca03137e-b5dd-403d-aae7-1e7c01b359ee&reconnection=false&skipWebSocketFrames=false
+71871[1] [32m[I 2026-01-19 14:49:44.539 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.07ms
+71871[1] [14:49:44] [127.0.0.1][ca03137e][ExtensionHostConnection] New connection established.
+71871[1] [14:49:44] [127.0.0.1][ca03137e][ExtensionHostConnection] <288> Launched Extension Host Process.
+71871[1] [32m[I 2026-01-19 14:49:54.646 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.86ms
+71871[1] [33m[W 2026-01-19 14:49:57.367 ServerApp](B[m 405 HEAD /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/lab/%E5%A4%87%E5%BF%98%E5%BD%95.txt (077fb0ffff834fdcbe916ef752292864@10.120.18.242) 7.78ms referer=https://hpc2login.hpc.hkust-gz.edu.cn/dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/lab/?folder=/hpc2hdd/home/kluo573
+71871[1] [14:49:57] Getting Manifest... ms-python.python
+71871[1] [14:50:00] Installing extension: ms-python.python
+71871[1] [14:50:00] Downloaded extension: ms-python.python /hpc2hdd/home/kluo573/.local/share/code-server/CachedExtensionVSIXs/ms-python.python-2022.16.1-universal
+71871[1] [14:50:03] Extracted extension to /opt/share/code-server/extensions/.90f9dda1-2d55-49be-ac95-4132e43dbafc: ms-python.python
+71871[1] [14:50:03] Renamed to /opt/share/code-server/extensions/ms-python.python-2022.16.1-universal
+71871[1] [14:50:03] Extracting completed. ms-python.python
+71871[1] [14:50:03] Extension installed successfully: ms-python.python
+71871[1] [32m[I 2026-01-19 14:50:04.840 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.02ms
+71871[1] [32m[I 2026-01-19 14:50:15.150 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.05ms
+71871[1] [31m[E 2026-01-19 14:50:24.483 ServerApp](B[m Uncaught exception
+    Traceback (most recent call last):
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 635, in _run_callback
+        result = callback(*args, **kwargs)
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 1523, in on_message
+        return self._on_message(message)
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 1529, in _on_message
+        self._on_message_callback(message)
+      File "/opt/miniconda3/lib/python3.10/site-packages/jupyter_server_proxy/handlers.py", line 505, in message_cb
+        self.write_message(message, binary=isinstance(message, bytes))
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 336, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+71871[1] [14:50:24] [127.0.0.1][905e9609][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+71871[1] [31m[E 2026-01-19 14:50:24.494 ServerApp](B[m Uncaught exception
+    Traceback (most recent call last):
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 635, in _run_callback
+        result = callback(*args, **kwargs)
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 1523, in on_message
+        return self._on_message(message)
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 1529, in _on_message
+        self._on_message_callback(message)
+      File "/opt/miniconda3/lib/python3.10/site-packages/jupyter_server_proxy/handlers.py", line 505, in message_cb
+        self.write_message(message, binary=isinstance(message, bytes))
+      File "/opt/miniconda3/lib/python3.10/site-packages/tornado/websocket.py", line 336, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+71871[1] [14:50:24] [127.0.0.1][ca03137e][ExtensionHostConnection] <288> Extension Host Process exited with code: 0, signal: null.
+71871[1] [32m[I 2026-01-19 14:50:25.251 ServerApp](B[m Trying to establish websocket connection to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=Management&reconnectionToken=267133ad-c40b-4b1d-9943-21eb056f7af5&reconnection=false&skipWebSocketFrames=false
+71871[1] [32m[I 2026-01-19 14:50:25.264 ServerApp](B[m Websocket connection established to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=Management&reconnectionToken=267133ad-c40b-4b1d-9943-21eb056f7af5&reconnection=false&skipWebSocketFrames=false
+71871[1] [32m[I 2026-01-19 14:50:25.295 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.58ms
+71871[1] [14:50:25] [127.0.0.1][267133ad][ManagementConnection] New connection established.
+71871[1] [32m[I 2026-01-19 14:50:25.923 ServerApp](B[m Trying to establish websocket connection to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=ExtensionHost&reconnectionToken=54f389ef-6d67-483a-bdaa-67c5b455fbe6&reconnection=false&skipWebSocketFrames=false
+71871[1] [32m[I 2026-01-19 14:50:25.963 ServerApp](B[m Websocket connection established to ws://localhost:34961/stable-2062a59ca1a586d8a6e7bf483841085a94c440a4?type=ExtensionHost&reconnectionToken=54f389ef-6d67-483a-bdaa-67c5b455fbe6&reconnection=false&skipWebSocketFrames=false
+71871[1] [14:50:26] [127.0.0.1][54f389ef][ExtensionHostConnection] New connection established.
+71871[1] [14:50:26] [127.0.0.1][54f389ef][ExtensionHostConnection] <391> Launched Extension Host Process.
+71871[1] [32m[I 2026-01-19 14:50:35.493 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.97ms
+71871[1] [32m[I 2026-01-19 14:50:45.570 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.05ms
+71871[1] [32m[I 2026-01-19 14:50:55.664 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.95ms
+71871[1] [32m[I 2026-01-19 14:51:05.886 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.96ms
+71871[1] [32m[I 2026-01-19 14:51:16.175 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.97ms
+71871[1] [32m[I 2026-01-19 14:51:26.286 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.95ms
+71871[1] [32m[I 2026-01-19 14:51:36.507 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.94ms
+71871[1] [32m[I 2026-01-19 14:51:46.695 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.95ms
+71871[1] [32m[I 2026-01-19 14:51:56.807 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.94ms
+71871[1] [32m[I 2026-01-19 14:52:06.922 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.95ms
+71871[1] [32m[I 2026-01-19 14:52:17.027 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 1.00ms
+71871[1] [32m[I 2026-01-19 14:52:27.399 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.99ms
+71871[1] [32m[I 2026-01-19 14:52:37.583 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.93ms
+71871[1] [32m[I 2026-01-19 14:52:47.742 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.99ms
+71871[1] [32m[I 2026-01-19 14:52:57.918 ServerApp](B[m 302 GET /dockerService/VSCode-kluo573-ea5b557c-d087-453c-ae64-dec099ed7e82/ (@127.0.0.1) 0.94ms

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "345f3f5a-02b4-4948-8d91-5a9b369f248f",
+      "fullPath": "/hpc2hdd/home/kluo573/.claude/projects/-hpc2hdd-home-kluo573-vla-quant/345f3f5a-02b4-4948-8d91-5a9b369f248f.jsonl",
+      "fileMtime": 1769517712941,
+      "firstPrompt": "<ide_opened_file>The user opened the file /hpc2hdd/home/kluo573/vla-quant/VLA-Adapter/run_eval.sh in the IDE. This may or may not be related to the current task.</ide_opened_file>",
+      "messageCount": 5,
+      "created": "2026-01-27T12:41:18.285Z",
+      "modified": "2026-01-27T12:41:52.913Z",
+      "gitBranch": "",
+      "projectPath": "/hpc2hdd/home/kluo573/vla-quant",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/hpc2hdd/home/kluo573/vla-quant"
+}
