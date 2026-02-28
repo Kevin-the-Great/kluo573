@@ -33,6 +33,7 @@ Miniforge3-Linux-x86_64.sh
 
 # Git仓库
 **/.git/
+.nested_git_backups/
 
 # ========== 敏感信息（必须排除）==========
 .ssh/

@@ -1,0 +1,492 @@
+2026-02-12 21:09:31,201 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-12 21:09:37,581 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-12 21:10:23,276 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-12 21:11:10,153 [INFO] Task 0 | Episode 2: ✅ Success
+2026-02-12 21:11:57,760 [INFO] Task 0 | Episode 3: ✅ Success
+2026-02-12 21:12:46,798 [INFO] Task 0 | Episode 4: ✅ Success
+2026-02-12 21:13:32,257 [INFO] Task 0 | Episode 5: ✅ Success
+2026-02-12 21:14:38,069 [INFO] Task 0 | Episode 6: ✅ Success
+2026-02-12 21:15:21,400 [INFO] Task 0 | Episode 7: ✅ Success
+2026-02-12 21:16:09,341 [INFO] Task 0 | Episode 8: ✅ Success
+2026-02-12 21:16:58,015 [INFO] Task 0 | Episode 9: ✅ Success
+2026-02-12 21:17:40,100 [INFO] Task 0 | Episode 10: ✅ Success
+2026-02-12 21:17:40,100 [INFO] ========= Task 1 Summary: 10/10 Successful =========
+2026-02-12 21:17:42,193 [INFO] 
+========= Start task2: pick up the black bowl next to the ramekin and place it on the plate =========
+2026-02-12 21:21:51,053 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-12 21:21:54,898 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-12 21:22:49,320 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-12 21:23:37,075 [INFO] Task 0 | Episode 2: ✅ Success
+2026-02-12 21:24:26,851 [INFO] Task 0 | Episode 3: ✅ Success
+2026-02-12 21:25:09,940 [INFO] Task 0 | Episode 4: ✅ Success
+2026-02-12 21:25:53,999 [INFO] Task 0 | Episode 5: ✅ Success
+2026-02-12 21:26:38,282 [INFO] Task 0 | Episode 6: ✅ Success
+2026-02-12 21:29:22,713 [INFO] Task 0 | Episode 7: ❌ Fail
+2026-02-12 21:30:07,964 [INFO] Task 0 | Episode 8: ✅ Success
+2026-02-12 21:30:53,692 [INFO] Task 0 | Episode 9: ✅ Success
+2026-02-12 21:31:36,931 [INFO] Task 0 | Episode 10: ✅ Success
+2026-02-12 21:31:36,931 [INFO] ========= Task 1 Summary: 9/10 Successful =========
+2026-02-12 21:31:38,965 [INFO] 
+========= Start task2: pick up the black bowl next to the ramekin and place it on the plate =========
+2026-02-12 21:32:39,764 [INFO] Task 1 | Episode 1: ✅ Success
+2026-02-12 21:33:34,256 [INFO] Task 1 | Episode 2: ✅ Success
+2026-02-12 21:34:34,955 [INFO] Task 1 | Episode 3: ✅ Success
+2026-02-12 21:35:36,196 [INFO] Task 1 | Episode 4: ✅ Success
+2026-02-12 21:36:33,270 [INFO] Task 1 | Episode 5: ✅ Success
+2026-02-12 21:37:32,374 [INFO] Task 1 | Episode 6: ✅ Success
+2026-02-12 21:40:18,497 [INFO] Task 1 | Episode 7: ❌ Fail
+2026-02-12 21:41:20,251 [INFO] Task 1 | Episode 8: ✅ Success
+2026-02-12 21:42:18,854 [INFO] Task 1 | Episode 9: ✅ Success
+2026-02-12 21:43:19,978 [INFO] Task 1 | Episode 10: ✅ Success
+2026-02-12 21:43:19,978 [INFO] ========= Task 2 Summary: 9/10 Successful =========
+2026-02-12 21:43:22,081 [INFO] 
+========= Start task3: pick up the black bowl from table center and place it on the plate =========
+2026-02-12 21:44:22,447 [INFO] Task 2 | Episode 1: ✅ Success
+2026-02-12 21:45:14,147 [INFO] Task 2 | Episode 2: ✅ Success
+2026-02-12 21:46:08,660 [INFO] Task 2 | Episode 3: ✅ Success
+2026-02-12 21:47:05,584 [INFO] Task 2 | Episode 4: ✅ Success
+2026-02-12 21:48:06,689 [INFO] Task 2 | Episode 5: ✅ Success
+2026-02-12 21:49:00,817 [INFO] Task 2 | Episode 6: ✅ Success
+2026-02-12 21:49:55,569 [INFO] Task 2 | Episode 7: ✅ Success
+2026-02-12 21:50:46,558 [INFO] Task 2 | Episode 8: ✅ Success
+2026-02-12 21:51:41,991 [INFO] Task 2 | Episode 9: ✅ Success
+2026-02-12 21:52:36,881 [INFO] Task 2 | Episode 10: ✅ Success
+2026-02-12 21:52:36,881 [INFO] ========= Task 3 Summary: 10/10 Successful =========
+2026-02-12 21:52:39,050 [INFO] 
+========= Start task4: pick up the black bowl on the cookie box and place it on the plate =========
+2026-02-12 21:53:38,698 [INFO] Task 3 | Episode 1: ✅ Success
+2026-02-12 21:56:16,451 [INFO] Task 3 | Episode 2: ❌ Fail
+2026-02-12 21:57:03,300 [INFO] Task 3 | Episode 3: ✅ Success
+2026-02-12 21:57:51,306 [INFO] Task 3 | Episode 4: ✅ Success
+2026-02-12 21:59:06,614 [INFO] Task 3 | Episode 5: ✅ Success
+2026-02-12 21:59:54,875 [INFO] Task 3 | Episode 6: ✅ Success
+2026-02-12 22:02:33,293 [INFO] Task 3 | Episode 7: ❌ Fail
+2026-02-12 22:03:23,781 [INFO] Task 3 | Episode 8: ✅ Success
+2026-02-12 22:04:14,823 [INFO] Task 3 | Episode 9: ✅ Success
+2026-02-12 22:05:04,034 [INFO] Task 3 | Episode 10: ✅ Success
+2026-02-12 22:05:04,035 [INFO] ========= Task 4 Summary: 8/10 Successful =========
+2026-02-12 22:05:06,172 [INFO] 
+========= Start task5: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate =========
+2026-02-12 22:06:20,337 [INFO] Task 4 | Episode 1: ✅ Success
+2026-02-12 22:07:34,164 [INFO] Task 4 | Episode 2: ✅ Success
+2026-02-12 22:08:38,846 [INFO] Task 4 | Episode 3: ✅ Success
+2026-02-12 22:09:48,099 [INFO] Task 4 | Episode 4: ✅ Success
+2026-02-12 22:10:55,437 [INFO] Task 4 | Episode 5: ✅ Success
+2026-02-12 22:12:03,089 [INFO] Task 4 | Episode 6: ✅ Success
+2026-02-12 22:13:16,741 [INFO] Task 4 | Episode 7: ✅ Success
+2026-02-12 22:14:26,901 [INFO] Task 4 | Episode 8: ✅ Success
+2026-02-12 22:15:37,489 [INFO] Task 4 | Episode 9: ✅ Success
+2026-02-12 22:16:53,082 [INFO] Task 4 | Episode 10: ✅ Success
+2026-02-12 22:16:53,083 [INFO] ========= Task 5 Summary: 10/10 Successful =========
+2026-02-12 22:16:55,071 [INFO] 
+========= Start task6: pick up the black bowl on the ramekin and place it on the plate =========
+2026-02-12 22:17:48,318 [INFO] Task 5 | Episode 1: ✅ Success
+2026-02-12 22:18:41,103 [INFO] Task 5 | Episode 2: ✅ Success
+2026-02-12 22:21:32,750 [INFO] Task 5 | Episode 3: ❌ Fail
+2026-02-12 22:24:19,686 [INFO] Task 5 | Episode 4: ❌ Fail
+2026-02-12 22:25:09,435 [INFO] Task 5 | Episode 5: ✅ Success
+2026-02-12 22:25:57,854 [INFO] Task 5 | Episode 6: ✅ Success
+2026-02-12 22:26:46,683 [INFO] Task 5 | Episode 7: ✅ Success
+2026-02-12 22:27:37,263 [INFO] Task 5 | Episode 8: ✅ Success
+2026-02-12 22:28:31,883 [INFO] Task 5 | Episode 9: ✅ Success
+2026-02-12 22:31:22,762 [INFO] Task 5 | Episode 10: ❌ Fail
+2026-02-12 22:31:22,763 [INFO] ========= Task 6 Summary: 7/10 Successful =========
+2026-02-12 22:31:24,878 [INFO] 
+========= Start task7: pick up the black bowl next to the cookie box and place it on the plate =========
+2026-02-12 22:32:19,439 [INFO] Task 6 | Episode 1: ✅ Success
+2026-02-12 22:33:15,302 [INFO] Task 6 | Episode 2: ✅ Success
+2026-02-12 22:34:09,043 [INFO] Task 6 | Episode 3: ✅ Success
+2026-02-12 22:35:06,476 [INFO] Task 6 | Episode 4: ✅ Success
+2026-02-12 22:36:01,091 [INFO] Task 6 | Episode 5: ✅ Success
+2026-02-12 22:36:54,900 [INFO] Task 6 | Episode 6: ✅ Success
+2026-02-12 22:37:54,509 [INFO] Task 6 | Episode 7: ✅ Success
+2026-02-12 22:38:50,932 [INFO] Task 6 | Episode 8: ✅ Success
+2026-02-12 22:39:51,168 [INFO] Task 6 | Episode 9: ✅ Success
+2026-02-12 22:40:44,763 [INFO] Task 6 | Episode 10: ✅ Success
+2026-02-12 22:40:44,763 [INFO] ========= Task 7 Summary: 10/10 Successful =========
+2026-02-12 22:40:46,841 [INFO] 
+========= Start task8: pick up the black bowl on the stove and place it on the plate =========
+2026-02-12 22:41:50,394 [INFO] Task 7 | Episode 1: ✅ Success
+2026-02-12 22:42:50,345 [INFO] Task 7 | Episode 2: ✅ Success
+2026-02-12 22:43:53,963 [INFO] Task 7 | Episode 3: ✅ Success
+2026-02-12 22:44:56,117 [INFO] Task 7 | Episode 4: ✅ Success
+2026-02-12 22:46:00,289 [INFO] Task 7 | Episode 5: ✅ Success
+2026-02-12 22:47:02,129 [INFO] Task 7 | Episode 6: ✅ Success
+2026-02-12 22:48:00,211 [INFO] Task 7 | Episode 7: ✅ Success
+2026-02-12 22:49:00,483 [INFO] Task 7 | Episode 8: ✅ Success
+2026-02-12 22:50:06,982 [INFO] Task 7 | Episode 9: ✅ Success
+2026-02-12 22:52:54,242 [INFO] Task 7 | Episode 10: ❌ Fail
+2026-02-12 22:52:54,243 [INFO] ========= Task 8 Summary: 9/10 Successful =========
+2026-02-12 22:52:56,408 [INFO] 
+========= Start task9: pick up the black bowl next to the plate and place it on the plate =========
+2026-02-12 22:53:45,806 [INFO] Task 8 | Episode 1: ✅ Success
+2026-02-12 22:54:38,863 [INFO] Task 8 | Episode 2: ✅ Success
+2026-02-12 22:56:12,228 [INFO] Task 8 | Episode 3: ✅ Success
+2026-02-12 22:57:02,660 [INFO] Task 8 | Episode 4: ✅ Success
+2026-02-12 22:57:55,590 [INFO] Task 8 | Episode 5: ✅ Success
+2026-02-12 23:00:38,676 [INFO] Task 8 | Episode 6: ❌ Fail
+2026-02-12 23:03:22,054 [INFO] Task 8 | Episode 7: ❌ Fail
+2026-02-12 23:06:10,558 [INFO] Task 8 | Episode 8: ❌ Fail
+2026-02-12 23:07:20,428 [INFO] Task 8 | Episode 9: ✅ Success
+2026-02-12 23:08:11,170 [INFO] Task 8 | Episode 10: ✅ Success
+2026-02-12 23:08:11,171 [INFO] ========= Task 9 Summary: 7/10 Successful =========
+2026-02-12 23:08:13,257 [INFO] 
+========= Start task10: pick up the black bowl on the wooden cabinet and place it on the plate =========
+2026-02-12 23:09:15,864 [INFO] Task 9 | Episode 1: ✅ Success
+2026-02-12 23:11:57,244 [INFO] Task 9 | Episode 2: ❌ Fail
+2026-02-12 23:13:00,911 [INFO] Task 9 | Episode 3: ✅ Success
+2026-02-12 23:14:04,762 [INFO] Task 9 | Episode 4: ✅ Success
+2026-02-12 23:15:06,535 [INFO] Task 9 | Episode 5: ✅ Success
+2026-02-12 23:16:27,474 [INFO] Task 9 | Episode 6: ✅ Success
+2026-02-12 23:17:30,775 [INFO] Task 9 | Episode 7: ✅ Success
+2026-02-12 23:18:32,054 [INFO] Task 9 | Episode 8: ✅ Success
+2026-02-12 23:19:40,307 [INFO] Task 9 | Episode 9: ✅ Success
+2026-02-12 23:20:53,262 [INFO] Task 9 | Episode 10: ✅ Success
+2026-02-12 23:20:53,262 [INFO] ========= Task 10 Summary: 9/10 Successful =========
+2026-02-12 23:20:53,263 [INFO] 
+========= Overall Task Summary =========
+2026-02-12 23:20:53,263 [INFO] ✅ Total Successful Episodes: 88/100
+2026-02-12 23:20:53,263 [INFO] 📊 Average Steps: 7.34
+2026-02-12 23:20:53,325 [INFO] ===========================Start task suite libero_object========================
+2026-02-12 23:20:56,823 [INFO] 
+========= Start task1: pick up the alphabet soup and place it in the basket =========
+2026-02-12 23:21:54,904 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-12 23:22:54,994 [INFO] Task 0 | Episode 2: ✅ Success
+2026-02-12 23:24:43,750 [INFO] Task 0 | Episode 3: ✅ Success
+2026-02-12 23:25:47,381 [INFO] Task 0 | Episode 4: ✅ Success
+2026-02-12 23:26:49,080 [INFO] Task 0 | Episode 5: ✅ Success
+2026-02-12 23:27:50,081 [INFO] Task 0 | Episode 6: ✅ Success
+2026-02-12 23:28:54,027 [INFO] Task 0 | Episode 7: ✅ Success
+2026-02-12 23:29:54,647 [INFO] Task 0 | Episode 8: ✅ Success
+2026-02-12 23:30:55,264 [INFO] Task 0 | Episode 9: ✅ Success
+2026-02-12 23:31:56,591 [INFO] Task 0 | Episode 10: ✅ Success
+2026-02-12 23:31:56,592 [INFO] ========= Task 1 Summary: 10/10 Successful =========
+2026-02-12 23:31:58,624 [INFO] 
+========= Start task2: pick up the cream cheese and place it in the basket =========
+2026-02-12 23:32:49,493 [INFO] Task 1 | Episode 1: ✅ Success
+2026-02-12 23:33:48,132 [INFO] Task 1 | Episode 2: ✅ Success
+2026-02-12 23:34:44,031 [INFO] Task 1 | Episode 3: ✅ Success
+2026-02-12 23:35:35,896 [INFO] Task 1 | Episode 4: ✅ Success
+2026-02-12 23:36:30,323 [INFO] Task 1 | Episode 5: ✅ Success
+2026-02-12 23:37:25,562 [INFO] Task 1 | Episode 6: ✅ Success
+2026-02-12 23:38:20,347 [INFO] Task 1 | Episode 7: ✅ Success
+2026-02-12 23:39:50,178 [INFO] Task 1 | Episode 8: ✅ Success
+2026-02-12 23:40:57,504 [INFO] Task 1 | Episode 9: ✅ Success
+2026-02-12 23:41:51,944 [INFO] Task 1 | Episode 10: ✅ Success
+2026-02-12 23:41:51,945 [INFO] ========= Task 2 Summary: 10/10 Successful =========
+2026-02-12 23:41:53,945 [INFO] 
+========= Start task3: pick up the salad dressing and place it in the basket =========
+2026-02-12 23:42:49,300 [INFO] Task 2 | Episode 1: ✅ Success
+2026-02-12 23:43:42,785 [INFO] Task 2 | Episode 2: ✅ Success
+2026-02-12 23:44:34,023 [INFO] Task 2 | Episode 3: ✅ Success
+2026-02-12 23:45:23,179 [INFO] Task 2 | Episode 4: ✅ Success
+2026-02-12 23:46:14,852 [INFO] Task 2 | Episode 5: ✅ Success
+2026-02-12 23:47:03,388 [INFO] Task 2 | Episode 6: ✅ Success
+2026-02-12 23:47:51,407 [INFO] Task 2 | Episode 7: ✅ Success
+2026-02-12 23:48:43,687 [INFO] Task 2 | Episode 8: ✅ Success
+2026-02-12 23:49:32,412 [INFO] Task 2 | Episode 9: ✅ Success
+2026-02-12 23:50:23,041 [INFO] Task 2 | Episode 10: ✅ Success
+2026-02-12 23:50:23,041 [INFO] ========= Task 3 Summary: 10/10 Successful =========
+2026-02-12 23:50:25,149 [INFO] 
+========= Start task4: pick up the bbq sauce and place it in the basket =========
+2026-02-12 23:52:17,876 [INFO] Task 3 | Episode 1: ✅ Success
+2026-02-12 23:53:13,799 [INFO] Task 3 | Episode 2: ✅ Success
+2026-02-12 23:54:05,862 [INFO] Task 3 | Episode 3: ✅ Success
+2026-02-12 23:55:16,256 [INFO] Task 3 | Episode 4: ✅ Success
+2026-02-12 23:56:10,294 [INFO] Task 3 | Episode 5: ✅ Success
+2026-02-12 23:57:08,681 [INFO] Task 3 | Episode 6: ✅ Success
+2026-02-12 23:58:09,875 [INFO] Task 3 | Episode 7: ✅ Success
+2026-02-12 23:58:59,686 [INFO] Task 3 | Episode 8: ✅ Success
+2026-02-12 23:59:53,758 [INFO] Task 3 | Episode 9: ✅ Success
+2026-02-13 00:01:03,488 [INFO] Task 3 | Episode 10: ✅ Success
+2026-02-13 00:01:03,489 [INFO] ========= Task 4 Summary: 10/10 Successful =========
+2026-02-13 00:01:05,311 [INFO] 
+========= Start task5: pick up the ketchup and place it in the basket =========
+2026-02-13 00:02:03,301 [INFO] Task 4 | Episode 1: ✅ Success
+2026-02-13 00:03:01,164 [INFO] Task 4 | Episode 2: ✅ Success
+2026-02-13 00:04:03,633 [INFO] Task 4 | Episode 3: ✅ Success
+2026-02-13 00:05:07,982 [INFO] Task 4 | Episode 4: ✅ Success
+2026-02-13 00:06:09,061 [INFO] Task 4 | Episode 5: ✅ Success
+2026-02-13 00:07:01,446 [INFO] Task 4 | Episode 6: ✅ Success
+2026-02-13 00:07:58,594 [INFO] Task 4 | Episode 7: ✅ Success
+2026-02-13 00:08:54,369 [INFO] Task 4 | Episode 8: ✅ Success
+2026-02-13 00:09:55,425 [INFO] Task 4 | Episode 9: ✅ Success
+2026-02-13 00:10:54,951 [INFO] Task 4 | Episode 10: ✅ Success
+2026-02-13 00:10:54,952 [INFO] ========= Task 5 Summary: 10/10 Successful =========
+2026-02-13 00:10:56,819 [INFO] 
+========= Start task6: pick up the tomato sauce and place it in the basket =========
+2026-02-13 00:11:55,724 [INFO] Task 5 | Episode 1: ✅ Success
+2026-02-13 00:12:46,862 [INFO] Task 5 | Episode 2: ✅ Success
+2026-02-13 00:13:43,289 [INFO] Task 5 | Episode 3: ✅ Success
+2026-02-13 00:14:40,046 [INFO] Task 5 | Episode 4: ✅ Success
+2026-02-13 00:15:39,376 [INFO] Task 5 | Episode 5: ✅ Success
+2026-02-13 00:16:36,289 [INFO] Task 5 | Episode 6: ✅ Success
+2026-02-13 00:17:55,360 [INFO] Task 5 | Episode 7: ✅ Success
+2026-02-13 00:18:53,196 [INFO] Task 5 | Episode 8: ✅ Success
+2026-02-13 00:19:52,263 [INFO] Task 5 | Episode 9: ✅ Success
+2026-02-13 00:21:03,181 [INFO] Task 5 | Episode 10: ✅ Success
+2026-02-13 00:21:03,182 [INFO] ========= Task 6 Summary: 10/10 Successful =========
+2026-02-13 00:21:05,056 [INFO] 
+========= Start task7: pick up the butter and place it in the basket =========
+2026-02-13 00:22:12,094 [INFO] Task 6 | Episode 1: ✅ Success
+2026-02-13 00:23:16,097 [INFO] Task 6 | Episode 2: ✅ Success
+2026-02-13 00:24:17,547 [INFO] Task 6 | Episode 3: ✅ Success
+2026-02-13 00:25:13,377 [INFO] Task 6 | Episode 4: ✅ Success
+2026-02-13 00:26:28,985 [INFO] Task 6 | Episode 5: ✅ Success
+2026-02-13 00:27:34,174 [INFO] Task 6 | Episode 6: ✅ Success
+2026-02-13 00:28:35,574 [INFO] Task 6 | Episode 7: ✅ Success
+2026-02-13 00:29:36,675 [INFO] Task 6 | Episode 8: ✅ Success
+2026-02-13 00:30:38,982 [INFO] Task 6 | Episode 9: ✅ Success
+2026-02-13 00:31:39,989 [INFO] Task 6 | Episode 10: ✅ Success
+2026-02-13 00:31:39,990 [INFO] ========= Task 7 Summary: 10/10 Successful =========
+2026-02-13 00:31:41,842 [INFO] 
+========= Start task8: pick up the milk and place it in the basket =========
+2026-02-13 00:32:40,171 [INFO] Task 7 | Episode 1: ✅ Success
+2026-02-13 00:33:32,349 [INFO] Task 7 | Episode 2: ✅ Success
+2026-02-13 00:34:31,063 [INFO] Task 7 | Episode 3: ✅ Success
+2026-02-13 00:35:29,745 [INFO] Task 7 | Episode 4: ✅ Success
+2026-02-13 00:36:40,348 [INFO] Task 7 | Episode 5: ✅ Success
+2026-02-13 00:37:35,105 [INFO] Task 7 | Episode 6: ✅ Success
+2026-02-13 00:38:31,592 [INFO] Task 7 | Episode 7: ✅ Success
+2026-02-13 00:39:29,989 [INFO] Task 7 | Episode 8: ✅ Success
+2026-02-13 00:40:24,265 [INFO] Task 7 | Episode 9: ✅ Success
+2026-02-13 00:42:35,084 [INFO] Task 7 | Episode 10: ❌ Fail
+2026-02-13 00:42:35,085 [INFO] ========= Task 8 Summary: 9/10 Successful =========
+2026-02-13 00:42:36,991 [INFO] 
+========= Start task9: pick up the chocolate pudding and place it in the basket =========
+2026-02-13 00:43:36,690 [INFO] Task 8 | Episode 1: ✅ Success
+2026-02-13 00:44:36,358 [INFO] Task 8 | Episode 2: ✅ Success
+2026-02-13 00:45:37,038 [INFO] Task 8 | Episode 3: ✅ Success
+2026-02-13 00:46:41,691 [INFO] Task 8 | Episode 4: ✅ Success
+2026-02-13 00:47:47,244 [INFO] Task 8 | Episode 5: ✅ Success
+2026-02-13 00:48:47,603 [INFO] Task 8 | Episode 6: ✅ Success
+2026-02-13 00:49:48,803 [INFO] Task 8 | Episode 7: ✅ Success
+2026-02-13 00:50:55,012 [INFO] Task 8 | Episode 8: ✅ Success
+2026-02-13 00:51:56,603 [INFO] Task 8 | Episode 9: ✅ Success
+2026-02-13 00:53:12,277 [INFO] Task 8 | Episode 10: ✅ Success
+2026-02-13 00:53:12,277 [INFO] ========= Task 9 Summary: 10/10 Successful =========
+2026-02-13 00:53:14,220 [INFO] 
+========= Start task10: pick up the orange juice and place it in the basket =========
+2026-02-13 00:54:09,149 [INFO] Task 9 | Episode 1: ✅ Success
+2026-02-13 00:55:03,726 [INFO] Task 9 | Episode 2: ✅ Success
+2026-02-13 00:55:58,863 [INFO] Task 9 | Episode 3: ✅ Success
+2026-02-13 00:56:49,011 [INFO] Task 9 | Episode 4: ✅ Success
+2026-02-13 00:57:43,196 [INFO] Task 9 | Episode 5: ✅ Success
+2026-02-13 01:00:02,393 [INFO] Task 9 | Episode 6: ❌ Fail
+2026-02-13 01:01:34,158 [INFO] Task 9 | Episode 7: ✅ Success
+2026-02-13 01:02:26,908 [INFO] Task 9 | Episode 8: ✅ Success
+2026-02-13 01:03:18,692 [INFO] Task 9 | Episode 9: ✅ Success
+2026-02-13 01:04:10,703 [INFO] Task 9 | Episode 10: ✅ Success
+2026-02-13 01:04:10,704 [INFO] ========= Task 10 Summary: 9/10 Successful =========
+2026-02-13 01:04:10,704 [INFO] 
+========= Overall Task Summary =========
+2026-02-13 01:04:10,704 [INFO] ✅ Total Successful Episodes: 98/100
+2026-02-13 01:04:10,704 [INFO] 📊 Average Steps: 10.64
+2026-02-13 01:04:10,748 [INFO] ===========================Start task suite libero_goal========================
+2026-02-13 01:04:12,783 [INFO] 
+========= Start task1: open the middle drawer of the cabinet =========
+2026-02-13 01:05:10,375 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-13 01:06:02,195 [INFO] Task 0 | Episode 2: ✅ Success
+2026-02-13 01:07:04,266 [INFO] Task 0 | Episode 3: ✅ Success
+2026-02-13 01:08:02,494 [INFO] Task 0 | Episode 4: ✅ Success
+2026-02-13 01:08:59,686 [INFO] Task 0 | Episode 5: ✅ Success
+2026-02-13 01:10:11,052 [INFO] Task 0 | Episode 6: ✅ Success
+2026-02-13 01:11:08,052 [INFO] Task 0 | Episode 7: ✅ Success
+2026-02-13 01:12:06,501 [INFO] Task 0 | Episode 8: ✅ Success
+2026-02-13 01:13:12,865 [INFO] Task 0 | Episode 9: ✅ Success
+2026-02-13 01:14:10,508 [INFO] Task 0 | Episode 10: ✅ Success
+2026-02-13 01:14:10,509 [INFO] ========= Task 1 Summary: 10/10 Successful =========
+2026-02-13 01:14:12,236 [INFO] 
+========= Start task2: put the bowl on the stove =========
+2026-02-13 01:15:01,457 [INFO] Task 1 | Episode 1: ✅ Success
+2026-02-13 01:15:51,468 [INFO] Task 1 | Episode 2: ✅ Success
+2026-02-13 01:16:32,587 [INFO] Task 1 | Episode 3: ✅ Success
+2026-02-13 01:17:21,316 [INFO] Task 1 | Episode 4: ✅ Success
+2026-02-13 01:18:07,743 [INFO] Task 1 | Episode 5: ✅ Success
+2026-02-13 01:18:55,026 [INFO] Task 1 | Episode 6: ✅ Success
+2026-02-13 01:19:42,943 [INFO] Task 1 | Episode 7: ✅ Success
+2026-02-13 01:20:29,603 [INFO] Task 1 | Episode 8: ✅ Success
+2026-02-13 01:21:14,646 [INFO] Task 1 | Episode 9: ✅ Success
+2026-02-13 01:22:02,804 [INFO] Task 1 | Episode 10: ✅ Success
+2026-02-13 01:22:02,804 [INFO] ========= Task 2 Summary: 10/10 Successful =========
+2026-02-13 01:22:04,744 [INFO] 
+========= Start task3: put the wine bottle on top of the cabinet =========
+2026-02-13 01:22:47,157 [INFO] Task 2 | Episode 1: ✅ Success
+2026-02-13 01:23:37,499 [INFO] Task 2 | Episode 2: ✅ Success
+2026-02-13 01:24:23,820 [INFO] Task 2 | Episode 3: ✅ Success
+2026-02-13 01:27:02,277 [INFO] Task 2 | Episode 4: ❌ Fail
+2026-02-13 01:27:47,989 [INFO] Task 2 | Episode 5: ✅ Success
+2026-02-13 01:28:39,918 [INFO] Task 2 | Episode 6: ✅ Success
+2026-02-13 01:29:28,645 [INFO] Task 2 | Episode 7: ✅ Success
+2026-02-13 01:30:18,889 [INFO] Task 2 | Episode 8: ✅ Success
+2026-02-13 01:31:04,963 [INFO] Task 2 | Episode 9: ✅ Success
+2026-02-13 01:31:52,380 [INFO] Task 2 | Episode 10: ✅ Success
+2026-02-13 01:31:52,380 [INFO] ========= Task 3 Summary: 9/10 Successful =========
+2026-02-13 01:31:54,316 [INFO] 
+========= Start task4: open the top drawer and put the bowl inside =========
+2026-02-13 01:33:20,091 [INFO] Task 3 | Episode 1: ✅ Success
+2026-02-13 01:35:09,285 [INFO] Task 3 | Episode 2: ✅ Success
+2026-02-13 01:36:39,488 [INFO] Task 3 | Episode 3: ✅ Success
+2026-02-13 01:39:13,230 [INFO] Task 3 | Episode 4: ❌ Fail
+2026-02-13 01:40:53,390 [INFO] Task 3 | Episode 5: ✅ Success
+2026-02-13 01:42:20,732 [INFO] Task 3 | Episode 6: ✅ Success
+2026-02-13 01:44:15,431 [INFO] Task 3 | Episode 7: ✅ Success
+2026-02-13 01:45:44,378 [INFO] Task 3 | Episode 8: ✅ Success
+2026-02-13 01:47:17,777 [INFO] Task 3 | Episode 9: ✅ Success
+2026-02-13 01:49:37,254 [INFO] Task 3 | Episode 10: ✅ Success
+2026-02-13 01:49:37,254 [INFO] ========= Task 4 Summary: 9/10 Successful =========
+2026-02-13 01:49:39,145 [INFO] 
+========= Start task5: put the bowl on top of the cabinet =========
+2026-02-13 01:50:25,563 [INFO] Task 4 | Episode 1: ✅ Success
+2026-02-13 01:51:09,234 [INFO] Task 4 | Episode 2: ✅ Success
+2026-02-13 01:51:50,117 [INFO] Task 4 | Episode 3: ✅ Success
+2026-02-13 01:52:36,747 [INFO] Task 4 | Episode 4: ✅ Success
+2026-02-13 01:53:23,242 [INFO] Task 4 | Episode 5: ✅ Success
+2026-02-13 01:54:04,722 [INFO] Task 4 | Episode 6: ✅ Success
+2026-02-13 01:54:50,741 [INFO] Task 4 | Episode 7: ✅ Success
+2026-02-13 01:55:36,682 [INFO] Task 4 | Episode 8: ✅ Success
+2026-02-13 01:56:26,597 [INFO] Task 4 | Episode 9: ✅ Success
+2026-02-13 01:57:12,051 [INFO] Task 4 | Episode 10: ✅ Success
+2026-02-13 01:57:12,051 [INFO] ========= Task 5 Summary: 10/10 Successful =========
+2026-02-13 01:57:13,876 [INFO] 
+========= Start task6: push the plate to the front of the stove =========
+2026-02-13 01:58:16,449 [INFO] Task 5 | Episode 1: ✅ Success
+2026-02-13 01:59:09,265 [INFO] Task 5 | Episode 2: ✅ Success
+2026-02-13 02:00:12,837 [INFO] Task 5 | Episode 3: ✅ Success
+2026-02-13 02:01:19,882 [INFO] Task 5 | Episode 4: ✅ Success
+2026-02-13 02:02:22,078 [INFO] Task 5 | Episode 5: ✅ Success
+2026-02-13 02:03:32,245 [INFO] Task 5 | Episode 6: ✅ Success
+2026-02-13 02:04:30,097 [INFO] Task 5 | Episode 7: ✅ Success
+2026-02-13 02:05:31,675 [INFO] Task 5 | Episode 8: ✅ Success
+2026-02-13 02:06:32,833 [INFO] Task 5 | Episode 9: ✅ Success
+2026-02-13 02:08:00,867 [INFO] Task 5 | Episode 10: ✅ Success
+2026-02-13 02:08:00,868 [INFO] ========= Task 6 Summary: 10/10 Successful =========
+2026-02-13 02:08:02,721 [INFO] 
+========= Start task7: put the cream cheese in the bowl =========
+2026-02-13 02:10:43,460 [INFO] Task 6 | Episode 1: ❌ Fail
+2026-02-13 02:11:38,680 [INFO] Task 6 | Episode 2: ✅ Success
+2026-02-13 02:12:29,884 [INFO] Task 6 | Episode 3: ✅ Success
+2026-02-13 02:13:16,569 [INFO] Task 6 | Episode 4: ✅ Success
+2026-02-13 02:15:57,258 [INFO] Task 6 | Episode 5: ❌ Fail
+2026-02-13 02:16:49,349 [INFO] Task 6 | Episode 6: ✅ Success
+2026-02-13 02:19:26,786 [INFO] Task 6 | Episode 7: ❌ Fail
+2026-02-13 02:20:38,143 [INFO] Task 6 | Episode 8: ✅ Success
+2026-02-13 02:21:27,071 [INFO] Task 6 | Episode 9: ✅ Success
+2026-02-13 02:22:15,182 [INFO] Task 6 | Episode 10: ✅ Success
+2026-02-13 02:22:15,183 [INFO] ========= Task 7 Summary: 7/10 Successful =========
+2026-02-13 02:22:16,988 [INFO] 
+========= Start task8: turn on the stove =========
+2026-02-13 02:23:02,258 [INFO] Task 7 | Episode 1: ✅ Success
+2026-02-13 02:23:44,805 [INFO] Task 7 | Episode 2: ✅ Success
+2026-02-13 02:24:30,586 [INFO] Task 7 | Episode 3: ✅ Success
+2026-02-13 02:25:10,271 [INFO] Task 7 | Episode 4: ✅ Success
+2026-02-13 02:25:49,566 [INFO] Task 7 | Episode 5: ✅ Success
+2026-02-13 02:26:31,710 [INFO] Task 7 | Episode 6: ✅ Success
+2026-02-13 02:27:11,692 [INFO] Task 7 | Episode 7: ✅ Success
+2026-02-13 02:27:57,408 [INFO] Task 7 | Episode 8: ✅ Success
+2026-02-13 02:28:37,989 [INFO] Task 7 | Episode 9: ✅ Success
+2026-02-13 02:29:15,982 [INFO] Task 7 | Episode 10: ✅ Success
+2026-02-13 02:29:15,982 [INFO] ========= Task 8 Summary: 10/10 Successful =========
+2026-02-13 02:29:17,770 [INFO] 
+========= Start task9: put the bowl on the plate =========
+2026-02-13 02:30:02,457 [INFO] Task 8 | Episode 1: ✅ Success
+2026-02-13 02:30:43,690 [INFO] Task 8 | Episode 2: ✅ Success
+2026-02-13 02:31:31,154 [INFO] Task 8 | Episode 3: ✅ Success
+2026-02-13 02:32:12,676 [INFO] Task 8 | Episode 4: ✅ Success
+2026-02-13 02:32:53,089 [INFO] Task 8 | Episode 5: ✅ Success
+2026-02-13 02:33:37,338 [INFO] Task 8 | Episode 6: ✅ Success
+2026-02-13 02:34:18,876 [INFO] Task 8 | Episode 7: ✅ Success
+2026-02-13 02:35:00,944 [INFO] Task 8 | Episode 8: ✅ Success
+2026-02-13 02:35:41,853 [INFO] Task 8 | Episode 9: ✅ Success
+2026-02-13 02:36:22,295 [INFO] Task 8 | Episode 10: ✅ Success
+2026-02-13 02:36:22,296 [INFO] ========= Task 9 Summary: 10/10 Successful =========
+2026-02-13 02:36:24,196 [INFO] 
+========= Start task10: put the wine bottle on the rack =========
+2026-02-13 02:37:22,885 [INFO] Task 9 | Episode 1: ✅ Success
+2026-02-13 02:38:22,902 [INFO] Task 9 | Episode 2: ✅ Success
+2026-02-13 02:39:30,031 [INFO] Task 9 | Episode 3: ✅ Success
+2026-02-13 02:40:29,772 [INFO] Task 9 | Episode 4: ✅ Success
+2026-02-13 02:41:37,625 [INFO] Task 9 | Episode 5: ✅ Success
+2026-02-13 02:43:33,438 [INFO] Task 9 | Episode 6: ✅ Success
+2026-02-13 02:44:30,288 [INFO] Task 9 | Episode 7: ✅ Success
+2026-02-13 02:45:31,553 [INFO] Task 9 | Episode 8: ✅ Success
+2026-02-13 02:46:41,872 [INFO] Task 9 | Episode 9: ✅ Success
+2026-02-13 02:47:40,489 [INFO] Task 9 | Episode 10: ✅ Success
+2026-02-13 02:47:40,489 [INFO] ========= Task 10 Summary: 10/10 Successful =========
+2026-02-13 02:47:40,489 [INFO] 
+========= Overall Task Summary =========
+2026-02-13 02:47:40,490 [INFO] ✅ Total Successful Episodes: 95/100
+2026-02-13 02:47:40,490 [INFO] 📊 Average Steps: 8.27
+2026-02-13 02:47:40,530 [INFO] ===========================Start task suite libero_10========================
+2026-02-13 02:47:43,241 [INFO] 
+========= Start task1: put both the alphabet soup and the tomato sauce in the basket =========
+2026-02-13 02:49:30,402 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-13 02:51:14,165 [INFO] Task 0 | Episode 2: ✅ Success
+2026-02-13 02:58:49,895 [INFO] Task 0 | Episode 3: ❌ Fail
+2026-02-13 03:01:11,961 [INFO] Task 0 | Episode 4: ✅ Success
+2026-02-13 03:04:09,124 [INFO] Task 0 | Episode 5: ✅ Success
+2026-02-13 03:06:04,571 [INFO] Task 0 | Episode 6: ✅ Success
+2026-02-13 03:08:42,694 [INFO] Task 0 | Episode 7: ✅ Success
+2026-02-13 03:16:15,929 [INFO] Task 0 | Episode 8: ❌ Fail
+2026-02-13 03:18:06,470 [INFO] Task 0 | Episode 9: ✅ Success
+2026-02-13 03:21:02,677 [INFO] Task 0 | Episode 10: ✅ Success
+2026-02-13 03:21:02,678 [INFO] ========= Task 1 Summary: 8/10 Successful =========
+2026-02-13 03:21:04,914 [INFO] 
+========= Start task2: put both the cream cheese box and the butter in the basket =========
+2026-02-13 03:22:43,099 [INFO] Task 1 | Episode 1: ✅ Success
+2026-02-13 03:24:26,301 [INFO] Task 1 | Episode 2: ✅ Success
+2026-02-13 03:31:52,220 [INFO] Task 1 | Episode 3: ❌ Fail
+2026-02-13 03:33:43,317 [INFO] Task 1 | Episode 4: ✅ Success
+2026-02-13 03:35:25,230 [INFO] Task 1 | Episode 5: ✅ Success
+2026-02-13 03:37:10,749 [INFO] Task 1 | Episode 6: ✅ Success
+2026-02-13 03:38:57,266 [INFO] Task 1 | Episode 7: ✅ Success
+2026-02-13 03:40:45,944 [INFO] Task 1 | Episode 8: ✅ Success
+2026-02-13 03:42:34,791 [INFO] Task 1 | Episode 9: ✅ Success
+2026-02-13 03:44:20,853 [INFO] Task 1 | Episode 10: ✅ Success
+2026-02-13 03:44:20,854 [INFO] ========= Task 2 Summary: 9/10 Successful =========
+2026-02-13 03:44:24,225 [INFO] 
+========= Start task3: turn on the stove and put the moka pot on it =========
+2026-02-13 03:46:05,311 [INFO] Task 2 | Episode 1: ✅ Success
+2026-02-28 16:17:17,608 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 16:18:29,309 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 16:28:44,257 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 16:32:50,830 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 16:39:40,320 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 16:59:23,005 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 16:59:48,424 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-28 17:07:44,107 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 17:07:59,435 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-28 17:16:21,704 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 17:16:46,519 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-28 17:18:40,525 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 17:18:56,303 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-28 17:56:58,228 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 17:57:05,213 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-28 17:58:20,729 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-28 17:59:20,411 [INFO] Task 0 | Episode 2: ✅ Success
+2026-02-28 18:00:13,477 [INFO] Task 0 | Episode 3: ✅ Success
+2026-02-28 18:01:12,441 [INFO] Task 0 | Episode 4: ✅ Success
+2026-02-28 18:02:05,322 [INFO] Task 0 | Episode 5: ✅ Success
+2026-02-28 18:02:57,642 [INFO] Task 0 | Episode 6: ✅ Success
+2026-02-28 18:03:47,377 [INFO] Task 0 | Episode 7: ✅ Success
+2026-02-28 18:04:39,285 [INFO] Task 0 | Episode 8: ✅ Success
+2026-02-28 18:05:33,054 [INFO] Task 0 | Episode 9: ✅ Success
+2026-02-28 18:06:26,851 [INFO] Task 0 | Episode 10: ✅ Success
+2026-02-28 18:06:26,852 [INFO] ========= Task 1 Summary: 10/10 Successful =========
+2026-02-28 18:06:29,171 [INFO] 
+========= Start task2: pick up the black bowl next to the ramekin and place it on the plate =========
+2026-02-28 18:07:49,966 [INFO] Task 1 | Episode 1: ✅ Success
+2026-02-28 18:09:02,066 [INFO] Task 1 | Episode 2: ✅ Success
+2026-02-28 18:10:15,460 [INFO] Task 1 | Episode 3: ✅ Success
+2026-02-28 18:11:26,683 [INFO] Task 1 | Episode 4: ✅ Success
+2026-02-28 18:15:32,355 [INFO] Task 1 | Episode 5: ❌ Fail
+2026-02-28 18:17:18,455 [INFO] Task 1 | Episode 6: ✅ Success
+2026-02-28 18:21:53,655 [INFO] Task 1 | Episode 7: ❌ Fail
+2026-02-28 18:23:13,026 [INFO] Task 1 | Episode 8: ✅ Success
