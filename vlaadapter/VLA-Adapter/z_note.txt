@@ -1,0 +1,12 @@
+conda activate vla-adapter
+cd /hpc2hdd/home/kluo573/vlaadapter/VLA-Adapter
+export PYTHONPATH="/hpc2hdd/home/kluo573/vlaadapter/VLA-Adapter:/hpc2hdd/home/kluo573/vlaadapter/VLA-Adapter/LIBERO"
+CUDA_VISIBLE_DEVICES=0 python -u experiments/robot/libero/run_libero_eval.py \
+  --model_family openvla \
+  --use_proprio True \
+  --num_images_in_input 2 \
+  --use_film False \
+  --use_pro_version True \
+  --load_in_8bit True \
+  --pretrained_checkpoint outputs/LIBERO-Long-Pro-8bit \
+  --task_suite_name libero_10
