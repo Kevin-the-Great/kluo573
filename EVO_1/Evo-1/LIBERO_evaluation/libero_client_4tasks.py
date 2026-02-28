@@ -27,10 +27,10 @@ class Args():
     horizon = 14
     max_steps = [25,25, 25, 95] 
     SERVER_URL = "ws://0.0.0.0:9000"
-    ckpt_name = f"Evo1_libero_all"  
+    ckpt_name = f"Evo1_libero_all_100ep"  
     task_suites = ["libero_spatial", "libero_object", "libero_goal", "libero_10"] 
     log_file = f"./log_file/{ckpt_name}.txt"
-    num_episodes = 10
+    num_episodes = 100
     SEED = 42
     
     

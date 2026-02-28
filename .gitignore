@@ -1,41 +1,13 @@
-# ========== 超大文件（必须排除）==========
-# Python环境
-qwen_env/
-**/venv/
-**/env/
-**/.conda/
-*.so
-
-# 模型权重和checkpoint
+# ========== 模型权重文件 ==========
 *.pt
 *.pth
 *.bin
 *.safetensors
 *.ckpt
 **/checkpoints/
-**/outputs/*/model.safetensors
-**/outputs/*/pytorch_model.bin
-**/outputs/*/*.pt
 **/pretrained_models/
 
-# HuggingFace缓存
-hf_cache/
-
-# 数据文件
-*.tfrecord
-**data/libero/**/*.tfrecord
-**/datasets/
-**/rollouts/
-
-# 大型安装包
-*.whl
-Miniforge3-Linux-x86_64.sh
-
-# Git仓库
-**/.git/
-.nested_git_backups/
-
-# ========== 敏感信息（必须排除）==========
+# ========== 敏感信息 ==========
 .ssh/
 .gnupg/
 **/*token*
@@ -44,16 +16,58 @@ Miniforge3-Linux-x86_64.sh
 **/*.pem
 **/*.key
 
-# ========== 临时文件 ==========
+# ========== GitHub硬限制文件（>100MB）==========
+# 大型安装包和wheels
+Miniforge3-Linux-x86_64.sh
+flash_attn*.whl
+
+# 大型缓存目录（通常包含>100MB文件）
+hf_cache/
+
+# 大型日志目录（644MB+）
+qwen3_0.6b_learning/logs/
+
+# ========== 开发环境和个人配置 ==========
+# Python虚拟环境
+qwen_env/
+**/venv/
+**/env/
+
+# 个人开发工具配置
+.vscode-server/
+.vscode/
+.conda/
+.cache/
+.config/
+.local/
+.npm/
+.docker/
+.dotnet/
+.triton/
+.keras/
+.copilot/
+.codex/
+.claude/
+.claude.json
+
+# Shell个人配置
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.zshrc
+.wget-hsts
+
+# HPC专用文件
+.jhaidata
+.jhshares
+.jhjobs/
+.filedownload
+
+# ========== Git内部目录（已转换为常规文件） ==========
+.nested_git_backups/
+
+# ========== 临时文件（保持仓库整洁）==========
 **/__pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.tmp
 .DS_Store
-
-# ========== 日志和评估结果（可选保留部分）==========
-# 如果日志文件很大可以排除
-# *.log
-# logs/
-# **/logs/

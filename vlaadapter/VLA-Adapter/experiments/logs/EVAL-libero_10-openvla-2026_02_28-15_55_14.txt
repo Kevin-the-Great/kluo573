@@ -793,3 +793,143 @@ Success: True
 
 Task: turn on the stove and put the moka pot on it
 Starting episode 13...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=113--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 113
+# successes: 107 (94.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=114--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 114
+# successes: 108 (94.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 15...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=115--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 115
+# successes: 109 (94.8%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 16...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=116--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 116
+# successes: 110 (94.8%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 17...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=117--success=False--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: False
+# episodes completed so far: 117
+# successes: 110 (94.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 18...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=118--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 118
+# successes: 111 (94.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 19...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=119--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 119
+# successes: 112 (94.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 20...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=120--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 120
+# successes: 113 (94.2%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 21...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=121--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 121
+# successes: 114 (94.2%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 22...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=122--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 122
+# successes: 115 (94.3%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 23...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=123--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 123
+# successes: 116 (94.3%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 24...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=124--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 124
+# successes: 117 (94.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 25...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=125--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 125
+# successes: 118 (94.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 26...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=126--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 126
+# successes: 119 (94.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 27...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=127--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 127
+# successes: 120 (94.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 28...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=128--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 128
+# successes: 121 (94.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 29...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=129--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 129
+# successes: 122 (94.6%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 30...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=130--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 130
+# successes: 123 (94.6%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 31...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=131--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 131
+# successes: 124 (94.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 32...
+Saved rollout MP4 at path ./rollouts/vla-adapter/2026_02_28/2026_02_28-15_55_14--episode=132--success=True--task=turn_on_the_stove_and_put_the_moka_pot_on_it.mp4
+Success: True
+# episodes completed so far: 132
+# successes: 125 (94.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 33...

@@ -1,0 +1,5 @@
+2026-02-28 18:43:35,284 [INFO] ===========================Start task suite libero_spatial========================
+2026-02-28 18:43:42,121 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-02-28 18:44:39,720 [INFO] Task 0 | Episode 1: ✅ Success
+2026-02-28 18:45:39,913 [INFO] Task 0 | Episode 2: ✅ Success
