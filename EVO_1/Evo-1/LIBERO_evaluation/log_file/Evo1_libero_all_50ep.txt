@@ -1,0 +1,22 @@
+2026-03-01 11:53:08,400 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:01:50,830 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:04:19,320 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:06:51,557 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:10:11,378 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:31:18,934 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:34:03,534 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:37:17,419 [INFO] ===========================Start task suite libero_spatial========================
+2026-03-01 12:37:26,113 [INFO] 
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-03-01 12:38:26,693 [INFO] Task 0 | Episode 1: ✅ Success
+2026-03-01 12:39:54,137 [INFO] Task 0 | Episode 2: ✅ Success
+2026-03-01 12:40:52,210 [INFO] Task 0 | Episode 3: ✅ Success
+2026-03-01 12:42:55,524 [INFO] Task 0 | Episode 4: ✅ Success
+2026-03-01 12:48:03,424 [INFO] Task 0 | Episode 5: ✅ Success
+2026-03-01 12:51:27,704 [INFO] Task 0 | Episode 6: ✅ Success
+2026-03-01 12:53:25,724 [INFO] Task 0 | Episode 7: ✅ Success
+2026-03-01 12:57:28,631 [INFO] Task 0 | Episode 8: ✅ Success
+2026-03-01 13:00:00,245 [INFO] Task 0 | Episode 9: ✅ Success
+2026-03-01 13:01:36,023 [INFO] Task 0 | Episode 10: ✅ Success
+2026-03-01 13:03:48,065 [INFO] Task 0 | Episode 11: ✅ Success
+2026-03-01 13:07:34,504 [INFO] Task 0 | Episode 12: ✅ Success
