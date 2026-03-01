@@ -1,9 +1,15 @@
 import os
+import ctypes
+
 # ====== 必须放在任何 mujoco/robosuite/libero import 之前 ======
 os.environ["MUJOCO_GL"] = "osmesa"
 os.environ["PYOPENGL_PLATFORM"] = "osmesa"
-# 可选：避免它去找显示设备
 os.environ.pop("DISPLAY", None)
+
+# 用 ctypes 直接加载 libOSMesa（绕过 ldconfig，直接走路径）
+_osmesa_lib = "/hpc2hdd/home/kluo573/.conda/envs/libero/lib/libOSMesa.so.8"
+if os.path.exists(_osmesa_lib):
+    ctypes.CDLL(_osmesa_lib, mode=ctypes.RTLD_GLOBAL)
 import asyncio
 import websockets
 import numpy as np
@@ -27,10 +33,10 @@ class Args():
     horizon = 14
     max_steps = [25,25, 25, 95] 
     SERVER_URL = "ws://0.0.0.0:9000"
-    ckpt_name = f"Evo1_libero_all_100ep"  
+    ckpt_name = f"Evo1_libero_all_50ep"  
     task_suites = ["libero_spatial", "libero_object", "libero_goal", "libero_10"] 
     log_file = f"./log_file/{ckpt_name}.txt"
-    num_episodes = 100
+    num_episodes = 50
     SEED = 42
     
     

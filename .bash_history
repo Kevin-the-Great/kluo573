@@ -1,17 +1,3 @@
-
-ckpt_path = "/hpc2hdd/home/kluo573/EVO_1/Evo-1/LIBERO_evaluation/checkpoints/Evo1_LIBERO/mp_rank_00_model_states.pt"
-
-ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=False)
-sd = ckpt["module"] if isinstance(ckpt, dict) and "module" in ckpt else ckpt
-
-keys = list(sd.keys())
-print("num_keys:", len(keys))
-print("sample keys:", keys[:30])
-PY
-
-python scripts/Evo1_server.py
-python scripts/Evo1_server.py
-python scripts/Evo1_server.py
 python scripts/Evo1_server.py
 python scripts/Evo1_server.py
 python scripts/Evo1_server.py
@@ -498,3 +484,17 @@ nohup python scripts/Evo1_server.py > server.log 2>&1 &
 nohup python scripts/Evo1_server.py > server.log 2>&1 &
 clear
 tail -f ~/EVO_1/Evo-1/Evo_1/server.log
+conda activate smoothquant
+conda activate smoothquant
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDkYmY2mh8GzmvucLZ4lWOmYKniAb37Ea/a1tbumwGa5Czh29Q5yYwEeh/qcvoZVgsMH4ssvMaL2suSFJ86ZmA1nRwgiJxzzKVrZ26HiPAZFjur4td+Ny1voJoFQjMsSwEZyWVc/ONw+vENgCmdvcv/vVHoqwYpXYt5LFHOYfwlX2skPOJ4H5AMdmKiEChE3JcclHuPFCHtWQRHIFL+4hATbIPkSLbMUon/KdYMzCWIl1+UaPZ3zJhZgrAX0XOZnIivspfvzk+oauutrQ8YChvPcs6fpsvuy4oVjY8aapeHUxqihrb+iMyT8NOhB4hbKYd6Oyx8iOQRdVMdfS2pIyAm83Z5YXCNYBp+CvZLxOejYfZ8FF8lW7jfSmQgqOZLbFOwsRQdklaVNnEO7+W4+uM1isU/J/gwLeDMiTDjEzt1AgnDdbrOJK2tC47Snmp9ymzkXJtNtRaNst0QSBEbVzvkY+1BO8jqCbk/qqJiNakJBchRJKIsqcragZ4uTjTLcVk= slytherin@DESKTOP-GHV4SLG  >> ~/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDkYmY2mh8GzmvucLZ4lWOmYKniAb37Ea/a1tbumwGa5Czh29Q5yYwEeh/qcvoZVgsMH4ssvMaL2suSFJ86ZmA1nRwgiJxzzKVrZ26HiPAZFjur4td+Ny1voJoFQjMsSwEZyWVc/ONw+vENgCmdvcv/vVHoqwYpXYt5LFHOYfwlX2skPOJ4H5AMdmKiEChE3JcclHuPFCHtWQRHIFL+4hATbIPkSLbMUon/KdYMzCWIl1+UaPZ3zJhZgrAX0XOZnIivspfvzk+oauutrQ8YChvPcs6fpsvuy4oVjY8aapeHUxqihrb+iMyT8NOhB4hbKYd6Oyx8iOQRdVMdfS2pIyAm83Z5YXCNYBp+CvZLxOejYfZ8FF8lW7jfSmQgqOZLbFOwsRQdklaVNnEO7+W4+uM1isU/J/gwLeDMiTDjEzt1AgnDdbrOJK2tC47Snmp9ymzkXJtNtRaNst0QSBEbVzvkY+1BO8jqCbk/qqJiNakJBchRJKIsqcragZ4uTjTLcVk= slytherin@DESKTOP-GHV4SLG" >> ~/.ssh/authorized_keys
+exit
+cat ~/.ssh/authorized_keys
+ls -ld ~
+ls -la ~/.ssh/
+ssh -v A40One
+conda activate smoothquant
+conda deactivate
+find / -name "libOSMesa.so*" 2>/dev/null
