@@ -1,0 +1,14 @@
+{
+  "socketPath": "/tmp/mcp-zTSfpb/mcp.sock",
+  "scheme": "unix",
+  "headers": {
+    "Authorization": "Nonce 035ed89f-c3fb-40fc-ba2a-8ca7d19983da"
+  },
+  "pid": 1392423,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1772526547910,
+  "workspaceFolders": [
+    "/hpc2hdd/home/kluo573/vlaadapter"
+  ],
+  "isTrusted": true
+}

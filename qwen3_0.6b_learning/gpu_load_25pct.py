@@ -1,37 +1,27 @@
 """
-GPU Load Generator - 目标 ~25% 利用率，低显存低功耗
-用法: python gpu_load_25pct.py [--device 0] [--target 25]
+GPU Load Generator v6 - 最终版
+用法: 
+  python gpu_load_v6.py              # 默认 512，先试这个
+  python gpu_load_v6.py --size 256   # 功耗更低
+  python gpu_load_v6.py --size 1024  # 功耗更高
 
-原理: 通过 duty cycling 控制 GPU 利用率
-- 执行一小段矩阵运算（拉高瞬时利用率）
-- 然后 sleep 一段时间（降低平均利用率）
-- 动态调节 compute/sleep 比例来逼近目标 UTL
+原理:
+  默认 stream + 无 sleep + 无 sync = GPU 队列永远满着 = UTL 稳定
+  通过矩阵大小控制功耗：
+    256  → 功耗低，SM 占用极少
+    512  → 功耗中等（推荐先试这个）
+    1024 → 功耗较高
+    2048 → 功耗拉满（别用）
 """
 
 import torch
 import time
 import argparse
 import subprocess
-import re
 import signal
-import sys
-
-
-def get_gpu_utilization(device_id: int) -> int:
-    """通过 nvidia-smi 查询当前 GPU 利用率"""
-    try:
-        result = subprocess.run(
-            ["nvidia-smi", f"--id={device_id}", "--query-gpu=utilization.gpu",
-             "--format=csv,noheader,nounits"],
-            capture_output=True, text=True, timeout=5
-        )
-        return int(result.stdout.strip())
-    except Exception:
-        return -1
 
 
 def get_gpu_stats(device_id: int) -> dict:
-    """查询 GPU 利用率、功耗、显存"""
     try:
         result = subprocess.run(
             ["nvidia-smi", f"--id={device_id}",
@@ -51,30 +41,18 @@ def get_gpu_stats(device_id: int) -> dict:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="GPU Load Generator")
+    parser = argparse.ArgumentParser(description="GPU Load Generator v6")
     parser.add_argument("--device", type=int, default=0, help="GPU device ID")
-    parser.add_argument("--target", type=int, default=25, help="目标利用率 %%")
-    parser.add_argument("--matrix-size", type=int, default=512,
-                        help="矩阵大小 (越小显存越低，默认512)")
+    parser.add_argument("--size", type=int, default=1024,
+                        help="矩阵大小: 256(低功耗) / 512(推荐) / 1024(高)")
     args = parser.parse_args()
 
     device = torch.device(f"cuda:{args.device}")
-    target_util = args.target
+    N = args.size
 
-    # 用较小的矩阵来最小化显存占用
-    # 512x512 float32 矩阵 ≈ 1MB，两个矩阵 + 结果 ≈ 3MB
-    N = args.matrix_size
     a = torch.randn(N, N, device=device, dtype=torch.float32)
     b = torch.randn(N, N, device=device, dtype=torch.float32)
-
-    # Duty cycle 参数（秒）
-    compute_time = 0.005   # 每次计算持续时间
-    sleep_time = 0.015     # 每次休息时间（初始 25% duty cycle）
-
-    # PID 控制器参数
-    Kp = 0.0003
-    Ki = 0.00001
-    integral = 0.0
+    mem_mb = N * N * 4 * 3 / 1024 / 1024
 
     running = True
     def signal_handler(sig, frame):
@@ -83,49 +61,31 @@ def main():
         print("\n正在停止...")
     signal.signal(signal.SIGINT, signal_handler)
 
-    print(f"GPU Load Generator 启动")
+    print(f"GPU Load Generator v6 启动")
     print(f"  设备: cuda:{args.device}")
-    print(f"  目标利用率: {target_util}%")
-    print(f"  矩阵大小: {N}x{N} (显存 ≈ {N*N*4*3/1024/1024:.1f} MB)")
+    print(f"  矩阵: {N}x{N}，额外显存 ~{mem_mb:.0f}MB")
+    print(f"  模式: 默认stream，持续提交，无sync无sleep")
+    print(f"  如果功耗太高用 --size 256，太低用 --size 1024")
     print(f"  Ctrl+C 停止\n")
-    print(f"{'时间':>6s} | {'UTL':>5s} | {'功耗':>8s} | {'显存':>12s} | {'compute':>8s} | {'sleep':>8s}")
-    print("-" * 70)
+    print(f"{'时间':>6s} | {'UTL':>5s} | {'功耗':>8s} | {'显存':>14s}")
+    print("-" * 50)
 
     start = time.time()
-    iter_count = 0
+    last_report = start
 
     while running:
-        # === Compute phase ===
-        t0 = time.time()
-        while time.time() - t0 < compute_time:
-            _ = torch.mm(a, b)
-        torch.cuda.synchronize(device)
+        _ = torch.mm(a, b)
 
-        # === Sleep phase ===
-        if sleep_time > 0:
-            time.sleep(sleep_time)
-
-        iter_count += 1
-
-        # 每 2 秒打印状态并调节参数
-        if iter_count % 100 == 0:
+        now = time.time()
+        if now - last_report >= 30:
+            torch.cuda.synchronize(device)
+            last_report = now
             stats = get_gpu_stats(args.device)
             if stats:
-                error = target_util - stats["util"]
-                integral += error
-                integral = max(-5000, min(5000, integral))  # anti-windup
-
-                # 调节 sleep_time
-                adjustment = Kp * error + Ki * integral
-                sleep_time -= adjustment
-                sleep_time = max(0.001, min(0.1, sleep_time))
-
-                elapsed = time.time() - start
+                elapsed = now - start
                 print(f"{elapsed:6.0f}s | {stats['util']:4d}% | {stats['power']:6.1f} W "
-                      f"| {stats['mem_used']:5d}/{stats['mem_total']:5d} MB "
-                      f"| {compute_time*1000:5.1f} ms | {sleep_time*1000:5.1f} ms")
+                      f"| {stats['mem_used']:5d}/{stats['mem_total']:5d} MB")
 
-    # 清理
     del a, b
     torch.cuda.empty_cache()
     print("已停止，GPU 资源已释放。")

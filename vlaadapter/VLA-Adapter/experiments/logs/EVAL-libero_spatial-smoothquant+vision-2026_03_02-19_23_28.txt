@@ -1,0 +1,5 @@
+Task suite: libero_spatial
+Quantization mode: smoothquant, Vision quantized: True
+Using default initial states
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate

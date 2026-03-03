@@ -1,56 +1,49 @@
-# ========== 模型权重文件 ==========
+# ========== 1. 权重文件 ==========
 *.pt
 *.pth
 *.bin
 *.safetensors
 *.ckpt
+*.msgpack
+*.h5
 **/checkpoints/
 **/pretrained_models/
 
-# ========== 敏感信息 ==========
-.ssh/
-.gnupg/
-**/*token*
-**/*secret*
-**/*password*
-**/*credential*
-**/.credentials.json
-**/*.pem
-**/*.key
+# ========== 2. 超大文件/目录 ==========
+# IDE / 服务器运行时
+.cursor-server/
+.vscode-server/
 
-# ========== GitHub硬限制文件（>100MB）==========
-# 大型安装包和wheels
-Miniforge3-Linux-x86_64.sh
-flash_attn*.whl
-
-# 大型缓存目录
-hf_cache/
-.cache/
+# 包管理器 / 运行时缓存
 .conda/
+.cache/
 .local/
+.npm/
+.dotnet/
+.nv/
+.triton/
+.ipython/
+.keras/
 
-# 大型日志目录（644MB+）
-qwen3_0.6b_learning/logs/
-
-# Python虚拟环境（通常很大）
+# Python 虚拟环境
 qwen_env/
 **/venv/
 **/env/
 
-# VSCode Server（通常很大）
-.vscode-server/
+# HuggingFace 缓存
+hf_cache/
 
-# 其他大型开发工具缓存
-.npm/
-.docker/
-.dotnet/
-.triton/
-.keras/
+# 大型安装包 / wheels
+Miniforge3-Linux-x86_64.sh
+flash_attn*.whl
 
-# ========== Git内部目录（已转换为常规文件） ==========
+# 大型日志目录
+qwen3_0.6b_learning/logs/
+
+# Git 备份
 .nested_git_backups/
 
-# ========== 视频文件（不推送） ==========
+# ========== 3. 视频文件 ==========
 *.mp4
 *.avi
 *.mov
@@ -58,7 +51,9 @@ qwen_env/
 *.flv
 *.wmv
 
-# ========== 临时文件（保持仓库整洁）==========
-**/__pycache__/
-*.pyc
-.DS_Store
+# ========== 4. 密钥文件 ==========
+.ssh/
+.gnupg/
+*.pem
+*.key
+.bash_history

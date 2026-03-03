@@ -10,3 +10,28 @@ CUDA_VISIBLE_DEVICES=0 python -u experiments/robot/libero/run_libero_eval.py \
   --load_in_8bit True \
   --pretrained_checkpoint outputs/LIBERO-Long-Pro-8bit \
   --task_suite_name libero_10
+
+
+
+CUDA_VISIBLE_DEVICES=0 python -u experiments/robot/libero/run_libero_eval.py \
+  --model_family openvla \
+  --use_proprio True \
+  --num_images_in_input 2 \
+  --use_film False \
+  --use_pro_version True \
+  --pretrained_checkpoint outputs/LIBERO-Object-Pro \
+  --task_suite_name libero_object
+
+
+
+CUDA_VISIBLE_DEVICES=0 python -u experiments/robot/libero/generate_vla_act_scales.py \
+  --model_family openvla \
+  --use_proprio True \
+  --num_images_in_input 2 \
+  --use_film False \
+  --use_pro_version True \
+  --pretrained_checkpoint outputs/LIBERO-Object-Pro \
+  --task_suite_name libero_object \
+  --output_path act_scales/vla_adapter_object.pt \
+  --num_calibration_steps 512 \
+  --calibration_only True
